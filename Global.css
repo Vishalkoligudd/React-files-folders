@@ -1,0 +1,50 @@
+.navbar{
+    border: 2px solid black;
+    display: flex;
+align-items: center;
+    justify-content: space-around;
+    height: 65px;
+}
+
+.menublock ul {
+   list-style: none;
+   display: flex;
+   width: 350px;
+   justify-content: space-between;
+   
+   margin-left: 100px;
+   height: 40px;
+   align-items: center;
+   
+
+}
+.menublock ul li a{
+    text-decoration: none;
+    padding-right: 15px;
+    border-right: 2px solid black;
+    
+}
+input{
+    width: 320px;
+    height: 30px;
+    border: none;
+    
+    
+}
+input img{
+    size: 10px;
+}
+.img1{
+    height: 20px;
+    width: 20px;
+}
+.div{
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    
+    width: 330px;
+    height: 40px;
+   
+    border-radius: 8px;
+}
