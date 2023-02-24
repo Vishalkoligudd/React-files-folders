@@ -5,9 +5,10 @@ function Nav4(props) {
     <div>
         <ul style={{listStyle:'none'}}>
             {props.data.course.map((x)=>{
-              return <li>{x}</li>
+              return  <li>{x}</li>
             })}
         </ul>
+        {props.data.course}
     </div>
   )
 }

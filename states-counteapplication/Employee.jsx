@@ -1,18 +1,14 @@
 import React, { Component } from 'react'
-import json from "./states/employee.json"
-
 export default class Employee extends Component {
     constructor(){
         super()
         this.state={name:"Abc", class:"S1",dob:1980}
     }
-    
-    change=()=>{
+     change=()=>{
       this.setState({name:"anuj"})
     }
     reset=()=>{
-    
-      document.title="VISHAL"
+     document.title="VISHAL"
       this.state.name=`Abc`
       this.setState({})
     }

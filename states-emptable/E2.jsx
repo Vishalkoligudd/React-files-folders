@@ -29,15 +29,21 @@ function E2(props) {
                     <td>{x.empgender}</td>
                     <td>{x.empedu}</td>
                     <td>{x.empexp}</td>
-                    <td><ul><li>{x.companies.previous}</li>
+                    <td>
+                    <ul>
+                    <li>{x.companies.previous}</li>
                     <li>{x.companies.current}</li>
-                    </ul></td>
+                    </ul>
+                    </td>
                     <td><img src={x.empimg} alt="" height='100px' /></td>
-                <td><ul>{x.empskills.map((y)=>{
+                    <td>
+                    <ul>
+                        {x.empskills.map((y)=>{
                     return <li>{y}</li>
-                })
-                }</ul></td>
-                <td>{x.empcity}</td>
+                     }) }
+                    </ul>
+                    </td>
+                    <td>{x.empcity}</td>
                 </tr>
                 )
             })}
