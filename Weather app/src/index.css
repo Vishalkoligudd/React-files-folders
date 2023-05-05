@@ -1,0 +1,9 @@
+@media screen and (max-width:350px) {
+    body{background-color:green;}
+    .div{margin-top: 50px;  width: 310px; font-size: x-large;}
+    .div input{font-size: xx-large;}
+}
+@media screen and (min-width:351px) and (max-width:900px){
+    body{background-color: yellowgreen;}
+    .div{margin: 50px;}
+}
